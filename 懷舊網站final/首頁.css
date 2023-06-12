@@ -1,0 +1,385 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+nav {
+    width: 100%;
+    height: 110px;
+    background: #cccabe;
+    display: flex;
+    /* 橫向排 nav 要不然會換行 */
+    align-items: center;
+    /* 置中對齊 */
+    padding-left: 40px;
+    /* 左邊的對內留白 */
+}
+
+nav img {
+    height: 80px;
+}
+
+.navbar_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40;
+}
+
+
+.icon按鈕 {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    height: 110px;
+}
+
+nav a {
+    color: #595853;
+    /* 也可以用RGB */
+    display: inline-block;
+    /* 具有高度、寬度的超連結顯示方式 */
+    text-decoration: none;
+    /* 把超連結底線去掉 */
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-left: 45px;
+    padding-right: 12px;
+    height: 80px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* 內文米白色的底 */
+.background {
+    height: 2800px;
+    background-color: rgba(235, 231, 215, 0.96);
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 31px;
+
+}
+
+/* banner 的上下邊線 */
+.banner_border {
+    height: 310px;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 15px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
+}
+
+/* banner 左邊的圖片容器 */
+.banner_img {
+    width: 350px;
+    height: 250px;
+    background-color: #222F28;
+    margin-left: 24px;
+    margin-right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+}
+
+/* banner 左邊的圖片 */
+.image1 {
+    width: 320px;
+    font-weight: 100;
+}
+
+/* banner 右邊的字容器 */
+.banner_text {
+    margin-left: 55px;
+    width: 430px;
+    height: 250px;
+    margin-top: 110px;
+
+}
+
+/* banner 右邊的標題 */
+.banner_title {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Noto Serif TC', serif;
+
+}
+
+/* banner 右邊的次標 */
+.banner_subtitle {
+    font-size: 19px;
+    font-family: 'Noto Serif TC', serif;
+    margin-top: 10px;
+
+}
+
+
+/* 第一段文字的容器 */
+.block0 {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 80px;
+    font-family: 'Noto Serif TC', serif;
+}
+
+/* 第一段文字的標題 */
+.title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+/* 第一段文字的內文 */
+.content {
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-family: 'Noto Serif TC', serif;
+}
+
+
+/* 圖片輪播 */
+.header_carousel {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: 200px;
+    background-color: aliceblue;
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel.slide {
+    width: 100%;
+}
+
+
+
+.block1 {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    font-family: 'Noto Serif TC', serif;
+}
+
+
+/* 一日遊容器 */
+.一日遊容器 {
+    margin-left: 230px;
+    margin-right: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.一日遊按鈕 {
+    width: 700px;
+    height: 160px;
+    border-radius: 15px;
+    border: 2px solid #000;
+    background-color: #222F28;
+}
+
+
+
+.一日遊按鈕:hover {
+    background-color: #43574c;
+    border: 2px solid #5d5d5d;
+}
+
+.onedaytrip {
+    width: 100%;
+}
+
+.block2 {
+    margin-top: 65px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 70px;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.block3 {
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 60px;
+    font-family: 'Noto Serif TC', serif;
+}
+
+
+/* 按鈕開始 */
+
+.按鈕容器 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 60px;
+}
+
+
+.no1 {
+    width: 165px;
+    height: 210px;
+    border-radius: 15px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    background-color: #222F28;
+    position: relative;
+}
+
+.no1::before {
+    content: "FOOD";
+    font-family: 'Noto Serif TC', serif;
+
+    font-size: 25px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 12px 12px;
+
+}
+
+.no1:hover {
+    background-color: #43574c;
+    border: 2px solid #5d5d5d;
+
+}
+
+
+.no2 {
+    width: 165px;
+    height: 210px;
+    border-radius: 15px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    background-color: #222F28;
+    position: relative;
+}
+
+.no2::before {
+    content: "MOVIE";
+    font-family: 'Noto Serif TC', serif;
+
+    font-size: 25px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 12px 12px;
+
+}
+
+.no2:hover {
+    background-color: #43574c;
+    border: 2px solid #5d5d5d;
+}
+
+.no3 {
+    width: 165px;
+    height: 210px;
+    border-radius: 15px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    background-color: #222F28;
+    position: relative;
+}
+
+.no3::before {
+    content: "MUSIC";
+    font-family: 'Noto Serif TC', serif;
+
+    font-size: 25px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 12px 12px;
+
+}
+
+.no3:hover {
+    background-color: #43574c;
+    border: 2px solid #5d5d5d;
+}
+
+.no4 {
+    width: 165px;
+    height: 210px;
+    border-radius: 15px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    background-color: #222F28;
+    position: relative;
+}
+
+.no4::before {
+    content: "SPOT";
+    font-family: 'Noto Serif TC', serif;
+
+    font-size: 25px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 12px 12px;
+
+}
+
+.no4:hover {
+    background-color: #43574c;
+    border: 2px solid #5d5d5d;
+}
+
+.image_food {
+    width: 100%
+}
+
+
+.image_food {
+    width: 100%
+}
+
+.image_movie {
+    width: 100%
+}
+
+.image_music {
+    width: 100%
+}
+
+.image_spot {
+    width: 100%
+}
+
+/* 按鈕結束 */
+.line {
+    width: 65%;
+    height: 2px;
+    background: #b6adad;
+    margin: 0 auto;
+}

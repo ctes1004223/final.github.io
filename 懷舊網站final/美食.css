@@ -1,0 +1,162 @@
+nav {
+    width: 100%;
+    height: 110px;
+    /* background: #cccabe; */
+    background: #a6a8aa;
+    display: flex;
+    /* 橫向排 nav 要不然會換行 */
+    align-items: center;
+    /* 置中對齊 */
+    padding-left: 40px;
+    margin-left: 0px;
+    /* 左邊的對內留白 */
+}
+
+nav img {
+    height: 80px;
+}
+
+.navbar_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40;
+}
+
+
+.icon按鈕 {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    height: 110px;
+}
+
+.navbar_list.active {
+    /* color: #373734; */
+    /* 也可以用RGB */
+    display: inline-block;
+    font-weight: 540;
+}
+
+nav a {
+    color: #595853;
+    /* 也可以用RGB */
+    display: inline-block;
+    /* 具有高度、寬度的超連結顯示方式 */
+    text-decoration: none;
+    /* 把超連結底線去掉 */
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-left: 45px;
+    padding-right: 12px;
+    height: 80px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+
+.background {
+    height: 3300px;
+    background-color: rgba(235, 231, 215, 0.95);
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 31px;
+
+}
+
+.banner_border {
+    height: 280px;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 15px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    background-color: #404537;
+    height: 240px;
+    width: 900px;
+    border-radius: 15px;
+    display: flex;
+
+}
+
+.bannerimg {
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 300px;
+}
+
+.banner_text {
+    margin-left: 55px;
+    width: 430px;
+    height: 250px;
+    margin-top: 60px;
+    color: rgb(249, 249, 249);
+}
+
+.banner_title {
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.banner_subtitle {
+    font-size: 16px;
+    font-family: 'Noto Serif TC', serif;
+    margin-top: 10px;
+}
+
+.block0 {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 80px;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Noto Serif TC', serif;
+    color: #2a2f22;
+}
+
+.content {
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-family: 'Noto Serif TC', serif;
+    color: #2a2f22;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    width: 500px;
+}
+
+.line {
+    width: 65%;
+    height: 2px;
+    background: #b6adad;
+    margin: 0 auto;
+}
+
+.block1 {
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 80px;
+}
